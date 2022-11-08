@@ -1,6 +1,7 @@
 import { Grid, Container } from "@mui/material";
 import Head from "next/head";
 import Sidebar from "../components/Home/Sidebar";
+import MainContent from "../components/Home/MainContent";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
             <Sidebar />
           </Grid>
           <Grid item xs={12} md={9}>
-            main content
+            <MainContent />
           </Grid>
         </Grid>
       </Container>
