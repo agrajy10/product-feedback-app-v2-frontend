@@ -12,7 +12,12 @@ export const roboto = Roboto({
 const theme = createTheme({
   palette: {
     background: {
-      default: "rgb(247, 248, 253)",
+      default: "rgb(231, 235, 240)",
+    },
+    category: {
+      planned: "rgb(244, 159, 133)",
+      inProgress: "rgb(173, 31, 234)",
+      live: "rgb(98, 188, 250)",
     },
   },
   typography: {
